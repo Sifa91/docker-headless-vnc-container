@@ -7,4 +7,5 @@ yum -y install epel-release
 yum -y update
 yum -y install vim sudo wget which net-tools bzip2 \
     numpy #used for websockify/novnc
+yum -y groups install "GNOME Desktop"
 yum clean all
